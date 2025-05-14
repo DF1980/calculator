@@ -1,1 +1,4 @@
 rootProject.name = 'calculator'
+include 'src:main:exampleCalculator'
+findProject(':src:main:exampleCalculator')?.name = 'exampleCalculator'
+
