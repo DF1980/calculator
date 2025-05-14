@@ -3,7 +3,8 @@ public class isGoodProgramer {
         boolean isGoodProgrammer = true;
         if (isGoodProgrammer) {
             System.out.println("Java, java, java!!!");
-        } else {
+        }
+        else {
             System.out.println("Muszisz się jeszcze pouczyć!");
         }
     }
