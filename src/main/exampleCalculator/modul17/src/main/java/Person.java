@@ -1,4 +1,4 @@
-public class Person {
+abstract class Person {
     private String name;
 
     public Person(String name) {
@@ -22,10 +22,10 @@ class Male extends Person {
 }
 class Application {
     public static void main(String args[]) {
-        Male male = new Male("Janek");
-        String name = male.getName();
-        System.out.println(name);
-        male.voice();
+        Male nazwaObiektuMale = new Male("Piotr");
+        String zmiennaDoKonsoliName = nazwaObiektuMale.getName();
+        System.out.println(zmiennaDoKonsoliName);
+        nazwaObiektuMale.voice();
 
     }
 }

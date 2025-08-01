@@ -13,7 +13,7 @@ interface Shape {
             Shape triangle = new Triangle();
             Shape square = new Square();
 
-            ShapeDrawer shapeDrawer = new ShapeDrawer(square);
+            ShapeDrawer shapeDrawer = new ShapeDrawer(circle);
 
             shapeDrawer.process();
 

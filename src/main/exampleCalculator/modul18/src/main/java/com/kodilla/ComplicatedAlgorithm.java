@@ -1,7 +1,7 @@
 package com.kodilla;
 class Application {
 
-    public static void main(String args[]) {
+   public static void main(String args[]) {
 
         ComplicatedAlgorithmRunner runner = new ComplicatedAlgorithmRunner();
 

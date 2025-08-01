@@ -9,10 +9,13 @@ interface Animal
 
         public static void main(String args[]) {
 
+            Mouse mouse = new Mouse();
+            Dog dog = new Dog();
+            Cat cat = new Cat();
             AnimalRecognizer objekt1Animal = new AnimalRecognizer();
 
-            String zmiennaDoObjektuAnimal = objekt1Animal.recognizeee(new Mouse());
-
+            String zmiennaDoObjektuAnimal = objekt1Animal.recognizeee(dog);
+           // String zmiennaDoObjektuAnimal = objekt1Animal.recognizeee(new Mouse());
             System.out.println(zmiennaDoObjektuAnimal);
 
         }
